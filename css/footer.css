@@ -1,0 +1,159 @@
+/* Newsletter Section */
+.newsletter-section {
+	padding: 2rem 0 !important;
+	background-color: #222;
+}
+
+.newsletter-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.newstext h4 {
+	font-size: 22px;
+	font-weight: 700;
+	color: #fff;
+	padding-bottom: 1rem;
+}
+
+.newstext p {
+	font-size: 14px;
+	font-weight: 500;
+	color: #898989;
+}
+
+.newstext span {
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+
+.form {
+	display: flex;
+	width: 40%;
+}
+
+.form input {
+	padding: 0 1.25rem;
+	font-size: 14px;
+	width: 100%;
+	border-radius: 4px;
+	border: none;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.form input:focus {
+	outline: none;
+}
+
+.form button {
+	color: #fff;
+	border: 2px solid #fff;
+	border-radius: 4px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.form button:hover {
+	box-shadow: inset -9.5em 0 0 0 #fff;
+	color: var(--black);
+}
+
+/* Footer Section */
+.footer-section {
+	padding: 2rem 0 1rem 0 !important;
+	background-color: #000;
+}
+
+.main-footer {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-col {
+	width: 25%;
+}
+
+.footer-col#c4 {
+	width: 20%;
+}
+
+.main-footer h3 {
+	color: #fff;
+	margin-bottom: 15px;
+}
+
+.footer-col a {
+	color: #898989;
+}
+
+.footer-col li {
+	margin-bottom: 10px;
+}
+
+.language,
+.footer-col .socials {
+	width: 100%;
+	margin: 0 0 10px 0;
+}
+
+.social-icons {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer-col a:hover,
+.social-icons a:hover {
+	color: #fff;
+	cursor: pointer;
+}
+
+.language select {
+	background: #222;
+	color: #898989;
+	font-size: 14px;
+	border: none;
+	border-radius: 4px;
+	padding: 10px 5px;
+	width: 100%;
+}
+
+.language select:focus {
+	outline: none;
+}
+
+.fa-brands {
+	color: #898989;
+	font-size: 28px;
+}
+
+.fa-instagram {
+	font-size: 33px;
+}
+
+/* Copyright & Legal Section */
+.sub-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.sub-footer p,
+.sub-footer a {
+	font-size: 12px;
+	color: #898989;
+}
+
+.legal a {
+	padding: 0 10px;
+	border-right: 0.5px solid #898989;
+}
+
+.legal a:last-child {
+	border-right: 0;
+}
+
+.legal a:hover {
+	cursor: pointer;
+}
